@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+
+using System;
+using System.Collections.ObjectModel;
 using System.Xml.Serialization;
 using TcxTools;
 using Tracker;
@@ -10,19 +13,12 @@ namespace Tracker
 {
     public partial class MainPage : ContentPage
     {
-        
-
         public MainPage()
         {
             InitializeComponent();
-
-            
-           
-            
-
            
         }
 
-       
+        
     }
 }

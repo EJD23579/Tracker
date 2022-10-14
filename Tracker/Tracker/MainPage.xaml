@@ -4,9 +4,11 @@
              x:Class="Tracker.MainPage">
 
     <StackLayout>
+        <Label Text="Logout" HorizontalOptions="EndAndExpand"></Label>
         <Frame BackgroundColor="#219"  Padding="24" CornerRadius="0">
-            <Label Text="Maps Live Tracking Sample!" HorizontalTextAlignment="Center" TextColor="Wheat"></Label>
+            <Label Text="Welcome, User! " HorizontalTextAlignment="Center" TextColor="Wheat"></Label>
         </Frame>
+        
         <maps:Map x:Name="myMap" IsShowingUser ="True"></maps:Map>
 
     </StackLayout>

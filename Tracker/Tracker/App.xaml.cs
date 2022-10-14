@@ -1,6 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Configuration;
+using System.Collections.Specialized;
+using Tracker.Views;
 
 namespace Tracker
 {
@@ -9,8 +12,10 @@ namespace Tracker
         public App()
         {
             InitializeComponent();
+            
+            MainPage = new NavigationPage(new LoginPage());
 
-            MainPage = new MainPage();
+            // MainPage = new RegistrationPage();
         }
 
         protected override void OnStart()
