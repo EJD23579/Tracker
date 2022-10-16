@@ -12,10 +12,8 @@ namespace Tracker
         public App()
         {
             InitializeComponent();
-            
             MainPage = new NavigationPage(new LoginPage());
 
-            // MainPage = new RegistrationPage();
         }
 
         protected override void OnStart()
