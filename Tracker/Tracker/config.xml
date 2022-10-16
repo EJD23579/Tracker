@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<configuration>
-	<appSettings>
-		<add key="Key" value="AIzaSyBbaFBnjRBTdAN5GhCDljeOHQ4_SJCT6MQ" />
-		<add key="client" value="https://tracker-365215-default-rtdb.europe-west1.firebasedatabase.app"/>
-
-		
-	</appSettings>
-</configuration>
